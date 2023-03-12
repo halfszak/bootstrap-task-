@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+body{
+   height: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/12/12/54/polar-a360-2059937_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+// .form-group {
+//     margin-bottom: 20px;
+//   }
+  
+  label {
+    font-weight: bold;
+  }
+  
+
+  form {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+
+  button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1f8bff;
+    border-color: #0062cc;
+  }
+  
+
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+
+  .form-control {
+    font-size: 16px;
+  }
+  
+
+  textarea.form-control {
+    height: 150px;
+  }
+  
